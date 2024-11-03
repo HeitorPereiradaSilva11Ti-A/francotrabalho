@@ -1,0 +1,12 @@
+@import "../css/header.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --slate-800: #1e293b;
+    --slate-200: #e2e8f0;
+}
