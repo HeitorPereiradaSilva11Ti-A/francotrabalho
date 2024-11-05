@@ -1,4 +1,9 @@
-@import url(./colors.css);
+@import "./global.css";
+:root{
+    --blue: #04175c;
+    --slate-200: #e2e8f0;
+    --white: #fff;
+}
 header {
     background: var(--blue);
     display: flex;
@@ -27,7 +32,7 @@ header li {
 }
 
 header a.active {
-    color: var(--fuchsia-500);
+    color: var(--slate-200);
 }
 
 header div img {
@@ -40,4 +45,8 @@ header div:hover,
 header li:hover {
     transform: scale(1.1);
     transition: .5s;
+}
+
+header h1{
+    color: var(--white);
 }
