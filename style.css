@@ -1,8 +1,21 @@
 @import "../css/header.css";
+@import "../css/global.css";
 
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
+h1{
+    padding: 10px;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-family: league spartan;
+}
+p{
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: roboto;
+}
