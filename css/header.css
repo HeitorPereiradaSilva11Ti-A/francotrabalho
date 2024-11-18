@@ -32,11 +32,6 @@ header a.active {
     color: var(--gray-400);
 }
 
-header div img {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-}
 
 header div:hover,
 header li:hover {

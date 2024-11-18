@@ -21,11 +21,20 @@ p{
 }
 
 main{
-  width: 10rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 4rem; 
+  margin-top: 3rem;
+}
+.esquerda,
+.direita{
+  display: flex;
+  flex-direction: column; 
+  gap: 3rem;  
+  align-items: center;
+}
+img {
+  width: 10rem;  
+  height: auto;  
 }
 
-.esquerda{
-
-}
